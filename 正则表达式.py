@@ -13,4 +13,5 @@ import re
 a="ABCDEFGHIJABCDEFGHIJABCDEF/GHIJ"
 b="/"
 print(u"在a中查找最后一个b后面的字符:"+a[a.rfind(b)+1:])
-
+print (a[a.rfind(b)+1:])
+print "aaa"
